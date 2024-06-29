@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import Preloader from './components/Preloader';
-import Header from './components/Header';
+import React, { useEffect, useState } from 'react';
+import ButtonGradient from './assets/svg/ButtonGradient';
 import Bio from './components/Bio';
 import Competenze from './components/Competenze';
-import Collaboration from './components/Staffexperiences';
 import Footer from './components/Footer';
+import Header from './components/Header';
+import Preloader from './components/Preloader';
+import Collaboration from './components/Staffexperiences';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ function App() {
       <Collaboration></Collaboration> 
       <Competenze></Competenze>    
       <Footer></Footer> 
+      <ButtonGradient></ButtonGradient>
         </div>
       )}
     </>

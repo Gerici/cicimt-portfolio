@@ -46,7 +46,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button className="tracking-[5px] mb-6 md:mb-auto">
+          <Button className="tracking-[5px] mb-6 md:mb-auto p-2">
             Now working in 'EverCraft' as Pluginner
           </Button>
         </animated.div>

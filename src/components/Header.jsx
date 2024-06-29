@@ -1,12 +1,12 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
+import { useState } from "react";
 import { cicimtavatar } from "../assets";
+import MenuSvg from "../assets/svg/MenuSvg";
 import { navigation } from "../constants";
 import Button from "./Button";
-import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
-import { useState } from "react";
 
 const Header = () => {
   const pathname = useLocation();
@@ -51,7 +51,7 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase tracking-[8px] text-n-1 transition-colors hover:text-n-18 ${
+                className={`block relative font-code text-xl uppercase tracking-[8px] text-n-1 transition-colors hover:text-n-18 ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-2xl ${
                   item.url === pathname.hash

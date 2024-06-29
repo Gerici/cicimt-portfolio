@@ -1,7 +1,6 @@
 import { animated, useSpring } from "@react-spring/web";
 import { check, head } from "../assets";
 import { collabApps, collabContent } from "../constants";
-import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
@@ -46,9 +45,9 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button className="tracking-[5px] mb-6 md:mb-auto p-2">
+          <div className="font-code tracking-[5px] text-n-4 mb-6 md:mb-auto p-2 hover:text-n-16">
             Now working in 'EverCraft' as Pluginner
-          </Button>
+          </div>
         </animated.div>
 
         <animated.div

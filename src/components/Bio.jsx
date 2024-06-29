@@ -61,7 +61,7 @@ const Hero = () => {
                   height={490}
                   alt="plugin"
                 />
-                <Generating className="absolute right-4 bottom-5 md:left-[63%] md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
+                <Generating className="absolute left-[18%] right-4 bottom-5 md:left-[63%] md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2 sm:left-[20%]" />
               </div>
             </div>
             <Gradient />

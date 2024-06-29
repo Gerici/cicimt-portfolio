@@ -32,7 +32,7 @@ import {
   export const navigation = [
     {
       id: "0",
-      title: "Biografia",
+      title: "Home",
       url: "#biografia",
     },
     {

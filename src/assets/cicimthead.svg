@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_2" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 181.22 39.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #211b17;
+        font-family: Minecraft-Bold, Minecraft;
+        font-size: 35.01px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Livello_1-2" data-name="Livello 1">
+    <g>
+      <text class="cls-1" transform="translate(48.18 32.77)"><tspan x="0" y="0">CICIMT</tspan></text>
+      <image width="599" height="548" transform="scale(.07)" xlink:href="../../../../Downloads/skinmc-avatar (1).png"/>
+    </g>
+  </g>
+</svg>

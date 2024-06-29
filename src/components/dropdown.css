@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; /* Posizione sotto il pulsante */
+    right: 0; /* Allineamento a destra */
+    width: 16rem; /* Larghezza del dropdown */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10; /* Assicurati che sia sopra gli altri elementi */
+    transition: opacity 0.3s ease; /* Esempio di transizione di opacità */
+    opacity: 1; /* Opacità iniziale */
+  }
+
+.minecraft-btn {
+  background-color: #4CAF50;
+  border-color: #388E3C;
+}
+
+.minecraft-btn:hover {
+  background-color: #45a049;
+}
+
+.bg-minecraft-background {
+  background-color: #7f8c8d; /* Aggiungi un colore di sfondo che ricorda il tema Minecraft */
+}
+
+.bg-minecraft-menu {
+  background-color: #2c3e50; /* Colore del menu dropdown */
+}
+
+.hover\\:bg-minecraft-hover:hover {
+  background-color: #34495e; /* Colore di hover per gli elementi del menu */
+}
+
+.font-minecraft {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.text-yellow-300 {
+  color: #f39c12; /* Colore giallo meno intenso per il tema Minecraft */
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-gray-500 {
+  border-color: #7f8c8d;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

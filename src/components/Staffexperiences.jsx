@@ -1,6 +1,6 @@
 import { animated, useSpring } from "@react-spring/web";
 import { check, head } from "../assets";
-import { collabApps, collabContent } from "../constants";
+import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
@@ -55,6 +55,9 @@ const Collaboration = () => {
           style={slideInRightSpring}
           className="lg:ml-auto xl:w-[38rem] mt-4"
         >
+          <p className="body-2 mb-8 text-n-8 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
+            {collabText}
+          </p>
 
           <div className="relative left-1/2 flex w-[20rem] md:w-[22rem] lg:w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">

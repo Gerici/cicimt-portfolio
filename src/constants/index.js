@@ -66,6 +66,9 @@ import {
     chromecast,
     sliders04,
   ];
+
+  export const collabText =
+  "all collabs started for fun, and became a big and interesting project.";
   
   export const collabContent = [
     {

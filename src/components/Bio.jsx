@@ -45,7 +45,7 @@ const Hero = () => {
               />
             </span>
           </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8 font-code">
+          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8 font-mc">
             Esplora le mie risorse, costruisci insieme a me la modalita' che fino ad adesso hai solo immaginato.
           </p>
         </div>

@@ -56,7 +56,7 @@ const Benefits = () => {
         >
           <Heading
             className="md:max-w-md lg:max-w-2xl font-code"
-            title="Scoprimi e cerca se faccio al caso tuo"
+            title="Cerca e scopri se faccio al caso tuo"
           />
         </motion.div>
 
